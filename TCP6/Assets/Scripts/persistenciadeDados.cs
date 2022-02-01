@@ -24,7 +24,7 @@ public class persistenciadeDados : MonoBehaviour
     void Start()
     {
         XmlDocument doc = new XmlDocument();
-        doc.Load(@"C:\Users\Raphael Mathias\Documents\GitHub\tcp5\Projeto Capivarinha\Assets\XML\posicaoPlayers.xml");
+        doc.Load(@"V:\GitHub\TCP6\TCP6\Assets\xml\info.xml");
 
         foreach (XmlNode node in doc)
         {
@@ -33,7 +33,7 @@ public class persistenciadeDados : MonoBehaviour
                 doc.RemoveChild(node);
             }
         }
-        string caminho = @"C:\Users\Raphael Mathias\Documents\GitHub\tcp5\Projeto Capivarinha\Assets\XML\posicaoPlayers.xml";
+        string caminho = @"V:\GitHub\TCP6\TCP6\Assets\xml\info.xml";
         string posicao = lerXml();
         ConverterXMLParaPosicao(posicao);
     }
@@ -46,7 +46,7 @@ public class persistenciadeDados : MonoBehaviour
 
     public void exportarPosicoes(Vector3 jogadorr, Vector3 jogadoraa)
     {
-        XmlTextWriter writer = new XmlTextWriter(@"C:\Users\Raphael Mathias\Desktop\TCP6-main\TCP6\Assets\xml\jogadores.xml", null);
+        XmlTextWriter writer = new XmlTextWriter(@"V:\GitHub\TCP6\TCP6\Assets\xml\info.xml", null);
         writer.WriteStartDocument();
         writer.Formatting = Formatting.Indented;
         writer.WriteStartElement("Jogadores");
@@ -106,7 +106,7 @@ public class persistenciadeDados : MonoBehaviour
 
     public string lerXml()
     {
-        return System.IO.File.ReadAllText(@"C:\Users\Raphael Mathias\Desktop\TCP6-main\TCP6\Assets\xml\jogadores.xml");
+        return System.IO.File.ReadAllText(@"V:\GitHub\TCP6\TCP6\Assets\xml\info.xml");
     }
 
     public void PosicionarPlayers()

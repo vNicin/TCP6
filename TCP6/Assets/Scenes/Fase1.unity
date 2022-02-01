@@ -406,7 +406,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ed5a2f873105cac48a6027fa5124dd94, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Aperte "F" para falar com Pedro Bala
+  m_Text: Aperte "F" para interagir
 --- !u!222 &269947047
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -582,7 +582,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5daa476f4a74b9d47a43792335fc0e04, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cdad1f3139cfa254fbcf7159c80a7cca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -601,8 +601,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414001069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.39, y: -1.04, z: 0}
-  m_LocalScale: {x: 0.3015779, y: 0.3015779, z: 0.3015779}
+  m_LocalPosition: {x: -2.52, y: -3.85, z: -4.1571}
+  m_LocalScale: {x: 0.17587571, y: 0.17587571, z: 1}
   m_Children:
   - {fileID: 1782745427}
   m_Father: {fileID: 0}
@@ -857,6 +857,89 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &736868803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 736868805}
+  - component: {fileID: 736868804}
+  m_Layer: 0
+  m_Name: Dora
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &736868804
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736868803}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 26e7d310012228d4eb0c0842581f69e2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.23, y: 0.26}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &736868805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736868803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.58, y: -3.86, z: -4.4182}
+  m_LocalScale: {x: 0.12411663, y: 0.12411663, z: 1}
+  m_Children:
+  - {fileID: 2014163509}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &798769490
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +1027,7 @@ Transform:
   - {fileID: 70393944}
   - {fileID: 1719941907}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &798769493
 BoxCollider2D:
@@ -1382,7 +1465,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1615,7 +1698,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ed5a2f873105cac48a6027fa5124dd94, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -2068,7 +2151,7 @@ RectTransform:
   m_GameObject: {fileID: 1538778219}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
+  m_LocalScale: {x: 0.52, y: 0.52, z: 1}
   m_Children: []
   m_Father: {fileID: 1692952002}
   m_RootOrder: 0
@@ -2226,6 +2309,89 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 55.933258, y: 73.80928}
   m_EdgeRadius: 0
+--- !u!1 &1583684079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1583684081}
+  - component: {fileID: 1583684080}
+  m_Layer: 0
+  m_Name: Professor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1583684080
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583684079}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 06d7086475c6a9044a87fa837af40268, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.23, y: 0.26}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1583684081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583684079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.58, y: -0.37, z: -4.4308}
+  m_LocalScale: {x: 0.12161, y: 0.12161, z: 1}
+  m_Children:
+  - {fileID: 1932569912}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1622171296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,7 +2567,7 @@ RectTransform:
   - {fileID: 269947048}
   - {fileID: 849309355}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2521,7 +2687,7 @@ Transform:
   m_Children:
   - {fileID: 973711165}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1782745426
 GameObject:
@@ -2589,13 +2755,13 @@ MonoBehaviour:
   conversando: 0
   textos:
   - 'Pedro Bala: Diga pivete. '
-  - "Juninho: Coe, quem \xE9 voc\xEA meu mano?"
-  - "Pedro Bala: Todos me conhecem como Pedro Bala, desde. Sou conhecido assim desde
-    os 5 anos e sou l\xEDder dos Capit\xE3es de Areia. "
-  - 'Juninho: Como tu se tornou o chefe?'
-  - "Pedro Bala: Me tornei o chefe desde de que enfrentei o antigo l\xEDder Raimundo,
-    mais conhecido como \u201CCaboclo\u201D, e desde ent\xE3o lidero esse grupo de
-    crian\xE7as."
+  - "Juninho: Co\xE9, quem \xE9 voc\xEA meu mano?"
+  - "Pedro Bala: Por aqui todos me conhecem como Pedro Bala. Sou conhecido assim
+    desde meus 5 anos e sou o l\xEDder dos Capit\xE3es de Areia."
+  - "Juninho: Como voc\xEA se tornou o chefe?"
+  - "Pedro Bala: Me tornei o chefe desde de que enfrentei o antigo l\xEDder \u201CCaboclo\u201D.
+    Ali\xE1s, essa cicatriz em meu rosto foi gra\xE7as a ele. Desde ent\xE3o lidero
+    esse grupo de crian\xE7as e adolescentes. "
   - "Juninho: E seus pais? Onde est\xE3o? "
   - "Pedro Bala: Meu pai morreu cedo, e minha m\xE3e? Nunca a conheci. S\xF3 sei
     que minha fam\xEDlia de verdade vive nesse Trapiche abandonado do caes."
@@ -2838,6 +3004,109 @@ RectTransform:
   m_AnchoredPosition: {x: -240, y: 101}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 0}
+--- !u!1 &1932569911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1932569912}
+  - component: {fileID: 1932569915}
+  - component: {fileID: 1932569914}
+  - component: {fileID: 1932569913}
+  m_Layer: 0
+  m_Name: TriggerPortaCasa (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1932569912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932569911}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.112, y: 0.148, z: -10.188569}
+  m_LocalScale: {x: 0.11962927, y: 0.11962927, z: 2.3925855}
+  m_Children: []
+  m_Father: {fileID: 1583684081}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1932569913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932569911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ca8cad1acda754ba8664286681dfb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interacao: {fileID: 269947045}
+  Dialogo: {fileID: 869639877}
+  contagem: 0
+  conversando: 0
+  textos:
+  - 'Professor: Posso ajudar? '
+  - "Juninho: Opa, com licen\xE7a maninho, me diz a\xED: Quem \xE9 voc\xEA?"
+  - "Professor: Meu nome \xE9 Jo\xE3o Jos\xE9, mas por aqui todos me conhecem como
+    Professor."
+  - "Juninho: P\xF4, e de onde veio esse apelido?"
+  - 'Professor:'
+  - 'Juninho: '
+  - 'Professor:'
+  texto: {fileID: 1141322508}
+  imagem: {fileID: 1165779130}
+  npc: {fileID: 21300000, guid: 37a8858d3478150448100c8767245cba, type: 3}
+  personagem: {fileID: 21300000, guid: b082908fe4f355547b46316e3f37e2ff, type: 3}
+--- !u!114 &1932569914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932569911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da61f6940fd52545ad3c1b929fd6b1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroInteracoes: 0
+  truee: 0
+  nXML: 0
+--- !u!61 &1932569915
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932569911}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.97, y: -0.95}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.75, y: 2.69}
+  m_EdgeRadius: 0
 --- !u!1 &1970125214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3070,6 +3339,109 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2014163508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014163509}
+  - component: {fileID: 2014163512}
+  - component: {fileID: 2014163511}
+  - component: {fileID: 2014163510}
+  m_Layer: 0
+  m_Name: TriggerPortaCasa (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014163509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014163508}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.112, y: 0.148, z: -10.188569}
+  m_LocalScale: {x: 0.11962927, y: 0.11962927, z: 2.3925855}
+  m_Children: []
+  m_Father: {fileID: 736868805}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2014163510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014163508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ca8cad1acda754ba8664286681dfb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interacao: {fileID: 269947045}
+  Dialogo: {fileID: 869639877}
+  contagem: 0
+  conversando: 0
+  textos:
+  - "Dora: Quem vem a\xED?"
+  - "Juninho: Opa, prazer Juninho. Como voc\xEA se chama?"
+  - 'Dora: Muito prazer, me chamo Dora.'
+  - "Juninho: Como voc\xEA veio parar nesse trapiche?"
+  - "Dora: Acabei nas ruas ap\xF3s meus pais morrerem de Bexiga, e os Capit\xE3es
+    de Areia acabaram me acolhendo."
+  - 'Juninho: '
+  - 'Dora: '
+  texto: {fileID: 1141322508}
+  imagem: {fileID: 1165779130}
+  npc: {fileID: 21300000, guid: 89dcf97efd4c7b44aba69cb2c203242c, type: 3}
+  personagem: {fileID: 21300000, guid: b082908fe4f355547b46316e3f37e2ff, type: 3}
+--- !u!114 &2014163511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014163508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da61f6940fd52545ad3c1b929fd6b1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroInteracoes: 0
+  truee: 0
+  nXML: 0
+--- !u!61 &2014163512
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014163508}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.97, y: -0.95}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.75, y: 2.69}
+  m_EdgeRadius: 0
 --- !u!1 &2042135217
 GameObject:
   m_ObjectHideFlags: 0
