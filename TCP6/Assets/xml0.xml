@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <NPCs>
   <mentor>
-    <ninteracoes>0</ninteracoes>
+    <ninteracoes>1</ninteracoes>
   </mentor>
   <numero>
-    <ninteracoes>0</ninteracoes>
+    <ninteracoes>1</ninteracoes>
   </numero>
 </NPCs>
