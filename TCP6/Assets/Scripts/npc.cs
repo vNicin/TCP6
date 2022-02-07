@@ -11,19 +11,39 @@ using System.Text;
 
 public class npc : MonoBehaviour
 {
-   
+    public GameObject interacao;
     public int numeroInteracoes;
     public bool truee;
     public int nXML;
 
+  
+    public int pedro;
+    public int dora;
+    public int professor;
+    public int jornal;
+
+
+    public bool ped;
+    public bool dor;
+    public bool pro;
+    public bool jor;
+
+    public PedroBala pedrob;
+    public PedroBala doraa;
+    public PedroBala prof;
+    public PedroBala jour;
+
+    public float tempo;
 
     // Start is called before the first frame update
     void Start()
     {
+        
+
         truee = true;
-      
+        interacao.SetActive(false);
         XmlDocument doc = new XmlDocument();
-        doc.Load(@"V:\GitHub\TCP6\TCP6\Assets\xml\npc.xml");
+        doc.Load(@"C:\Users\Raphael Mathias\Desktop\TCP6-main\TCP6\Assets\xml\npc.xml");
 
         foreach (XmlNode node in doc)
         {
@@ -32,7 +52,7 @@ public class npc : MonoBehaviour
                 doc.RemoveChild(node);
             }
         }
-        string caminho = @"V:\GitHub\TCP6\TCP6\Assets\xml\npc.xml";
+        string caminho = @"C:\Users\Raphael Mathias\Desktop\TCP6-main\TCP6\Assets\xml\npc.xml";
         string posicao = lerXml();
         ConverterXMLParaPosicao(posicao);
     }
@@ -41,6 +61,21 @@ public class npc : MonoBehaviour
     void Update()
     {
         exportarPosicoes();
+
+        tempo += Time.deltaTime;
+        
+            
+        
+        
+            dora = doraa.numero;
+          
+        
+            pedro = pedrob.numero;
+           
+       
+            professor = prof.numero;
+        
+
     }
 
 
@@ -48,22 +83,28 @@ public class npc : MonoBehaviour
 
     public void exportarPosicoes()
     {
-        XmlTextWriter writer = new XmlTextWriter(@"V:\GitHub\TCP6\TCP6\Assets\xml" + nXML + ".xml", null);
+        XmlTextWriter writer = new XmlTextWriter(@"C:\Users\Raphael Mathias\Desktop\TCP6-main\TCP6\Assets\xml\npc.xml" + nXML + ".xml", null);
         writer.WriteStartDocument();
         writer.Formatting = Formatting.Indented;
         writer.WriteStartElement("NPCs");
-        writer.WriteStartElement("mentor");
-        writer.WriteElementString("ninteracoes", numeroInteracoes.ToString());
+        writer.WriteStartElement("professor");
+        writer.WriteElementString("numerointeracoes", professor.ToString());
         writer.WriteEndElement();
-        writer.WriteStartElement("numero");
-        writer.WriteElementString("ninteracoes", numeroInteracoes.ToString());
+        writer.WriteStartElement("pedro");
+        writer.WriteElementString("numerointeracoes", pedro.ToString());
+        writer.WriteEndElement();
+        writer.WriteStartElement("dora");
+        writer.WriteElementString("numerointeracoes", dora.ToString());
+        writer.WriteEndElement();
+        writer.WriteStartElement("tempo");
+        writer.WriteElementString("TempoTotal", tempo.ToString());
         writer.WriteEndElement();
         writer.WriteFullEndElement();
         writer.Close();
 
 
 
-        XmlTextWriter writer2 = new XmlTextWriter(@"V:\GitHub\TCP6\TCP6\Assets\xml", null);
+        XmlTextWriter writer2 = new XmlTextWriter(@"C:\Users\Raphael Mathias\Desktop\TCP6-main\TCP6\Assets\xml\npc.xml", null);
         writer2.WriteStartDocument();
         writer2.Formatting = Formatting.Indented;
         writer2.WriteStartElement("contagem");
@@ -93,28 +134,28 @@ public class npc : MonoBehaviour
         {
             if (xtr.NodeType == XmlNodeType.Element && xtr.Name == "ninteracoes")
             {
-                
+
                 string interacoes = xtr.ReadElementContentAsString();
                 nXML = int.Parse(interacoes);
                 nXML += 1;
             }
-          
+
 
         }
 
     }
 
 
-      public string lerXml()
+    public string lerXml()
     {
-        return System.IO.File.ReadAllText(@"V:\GitHub\TCP6\TCP6\Assets\xml");
+        return System.IO.File.ReadAllText(@"C:\Users\Raphael Mathias\Desktop\TCP6-main\TCP6\Assets\xml\npc.xml");
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Player"))
         {
-           
+            interacao.SetActive(true);
             if (truee)
             {
                 numeroInteracoes += 1;
@@ -123,7 +164,11 @@ public class npc : MonoBehaviour
 
         }
     }
+    void OnTriggerExit2D(Collider2D col)
+    {
 
+        interacao.SetActive(false);
 
+    }
 
 }
