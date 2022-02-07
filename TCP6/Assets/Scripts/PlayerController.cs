@@ -57,18 +57,18 @@ public class PlayerController : MonoBehaviour
     public void andarCima()
     {
         vertical = 1;
-
     }
 
     public void andarBaixo()
     {
         vertical = -1;
     }
+
     public void pararAndar()
     {
         horizontal = 0;
-
     }
+
     public void pararAndarV()
     {
         vertical = 0;

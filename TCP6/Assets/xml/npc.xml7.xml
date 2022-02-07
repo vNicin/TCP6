@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<NPCs>
+  <professor>
+    <numerointeracoes>1</numerointeracoes>
+  </professor>
+  <pedro>
+    <numerointeracoes>1</numerointeracoes>
+  </pedro>
+  <dora>
+    <numerointeracoes>1</numerointeracoes>
+  </dora>
+  <tempo>
+    <TempoTotal>56,78062</TempoTotal>
+  </tempo>
+</NPCs>
