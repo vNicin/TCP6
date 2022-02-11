@@ -4463,7 +4463,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1692951999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4836,8 +4836,8 @@ MonoBehaviour:
     que minha fam\xEDlia de verdade vive nesse Trapiche abandonado do caes."
   texto: {fileID: 1141322508}
   imagem: {fileID: 1165779130}
-  npc: {fileID: 21300000, guid: 124d964d62537d0419b7133b50eba6d7, type: 3}
-  personagem: {fileID: 21300000, guid: bb5675d3eedf8944d8eae377617e33ec, type: 3}
+  npc: {fileID: 21300000, guid: bb5675d3eedf8944d8eae377617e33ec, type: 3}
+  personagem: {fileID: 21300000, guid: 124d964d62537d0419b7133b50eba6d7, type: 3}
   id: 0
   botao: {fileID: 1936166784}
   numero: 0
@@ -5245,13 +5245,16 @@ MonoBehaviour:
   - "Professor: Meu nome \xE9 Jo\xE3o Jos\xE9, mas por aqui todos me conhecem como
     Professor."
   - "Juninho: P\xF4, e de onde veio esse apelido?"
-  - 'Professor:'
-  - 'Juninho: '
-  - 'Professor:'
+  - "Professor: Bem\u2026 eu sempre gostei de ler e contar hist\xF3rias, e consequentemente
+    acabei aprendendo muita coisa. Acho que \xE9 gra\xE7as a isso que o pessoal daqui
+    me chama dessa maneira."
+  - "Juninho: E dentro do grupo, qual \xE9 sua fun\xE7\xE3o?"
+  - "Professor: Sou eu quem cria alguns planos de assalto e ajudo no planejamento
+    de outros. O Bala sempre me consulta tamb\xE9m antes de ralizar alguma coisa."
   texto: {fileID: 1141322508}
   imagem: {fileID: 1165779130}
-  npc: {fileID: 21300000, guid: 37a8858d3478150448100c8767245cba, type: 3}
-  personagem: {fileID: 21300000, guid: bb5675d3eedf8944d8eae377617e33ec, type: 3}
+  npc: {fileID: 21300000, guid: bb5675d3eedf8944d8eae377617e33ec, type: 3}
+  personagem: {fileID: 21300000, guid: 37a8858d3478150448100c8767245cba, type: 3}
   id: 0
   botao: {fileID: 1936166784}
   numero: 0
@@ -5686,17 +5689,17 @@ MonoBehaviour:
   conversandoo: 0
   textos:
   - "Dora: Quem vem a\xED?"
-  - "Juninho: Opa, prazer Juninho. Como voc\xEA se chama?"
-  - 'Dora: Muito prazer, me chamo Dora.'
-  - "Juninho: Como voc\xEA veio parar nesse trapiche?"
-  - "Dora: Acabei nas ruas ap\xF3s meus pais morrerem de Bexiga, e os Capit\xE3es
-    de Areia acabaram me acolhendo."
-  - 'Juninho: '
-  - 'Dora: '
+  - "Juninho: Opa, prazer Junior. Seu nome \xE9?"
+  - 'Dora: Me chamo Dora, muito prazer.'
+  - "Juninho: S\xF3 uma perguntinha r\xE1pida: Como voc\xEA veio parar nesse trapiche?"
+  - "Dora: Acabei nas ruas junto com meu irm\xE3ozinho ap\xF3s meus pais falecerem
+    de \u201CBexiga\u201D, e os Capit\xE3es de Areia acabaram nos acolhendo."
+  - "Juninho: E as outras meninas do bando? Onde est\xE3o?"
+  - "Dora: Sou a primeira e \xFAnica menina do grupo at\xE9 ent\xE3o."
   texto: {fileID: 1141322508}
   imagem: {fileID: 1165779130}
-  npc: {fileID: 21300000, guid: c2f3ccba090053d4c870714e35ec7cbc, type: 3}
-  personagem: {fileID: 21300000, guid: bb5675d3eedf8944d8eae377617e33ec, type: 3}
+  npc: {fileID: 21300000, guid: bb5675d3eedf8944d8eae377617e33ec, type: 3}
+  personagem: {fileID: 21300000, guid: c2f3ccba090053d4c870714e35ec7cbc, type: 3}
   id: 0
   botao: {fileID: 1936166784}
   numero: 0
